@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApiDotNet6.Domain.Validadtions
 {
-    internal class DomainValidationException : Exception
+    public class DomainValidationException : Exception
     {
         public DomainValidationException(string error) : base(error)
         {}

@@ -10,4 +10,12 @@
     <ProjectReference Include="..\ApiDotNet6.Domain\ApiDotNet6.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+  </ItemGroup>
+
 </Project>
